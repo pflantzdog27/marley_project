@@ -1,0 +1,99 @@
+/***  Includes  ***/
+//***********************************************
+@import "font-face";
+@import "media_queries";
+@import "isotope-default";
+
+/***  Box Shadows  ***/
+//***********************************************
+@mixin box-shadow($dimensions, $color) {
+  -webkit-box-shadow: $dimensions $color;
+  -moz-box-shadow:    $dimensions $color;
+  box-shadow:         $dimensions $color;
+}
+
+/***  Transitions  ***/
+//***********************************************
+@mixin transition($property, $time) {
+  -o-transition: $property $time ease;
+  -ms-transition: $property $time ease;
+  -moz-transition: $property $time ease;
+  -webkit-transition: $property $time ease;
+  transition: $property $time ease;
+}
+
+/***  Fonts   ***/
+//***********************************************
+$themefont: 'avenirregular', arial, sans-serif;
+$themefont-bold: 'avenir_85_heavyregular', arial, sans-serif;
+
+/***  Theme Colors   ***/
+//***********************************************
+$yellow : #ffc220;
+$light-gray : #bfbfbf;
+$dark-gray : #666;
+$brown : #543019;
+
+/***  Navigation  ***/
+//***********************************************
+$navigation-background : #222;
+
+/* UTILITIES and DOCUMENT ESSENTIALS */
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background: url(../images/body-bg.png)0 0;
+      canvas {
+          background: rgba(0,0,0,.95);
+      }
+}
+#intro-screen {
+  background: url(../images/intro_screen_c.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#marley-logo {
+  position: fixed;
+  top: 70%;
+  width: 200px; // needs to same width as logo in wrapper
+  opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:768px){ /* small */
+
+}
+@media(min-width:992px){ /* medium */
+  #main-nav {
+    display: block;
+  }
+  #main-nav > li {
+    float: left;
+    border: 0;
+  }
+  #main-nav li a i {
+    position: relative;
+    right: 0;
+  }
+}
+@media(min-width:1200px){ /* large */
+  #main-nav li {
+    font-size: 1em;
+  }
+}
