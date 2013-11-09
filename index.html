@@ -17,37 +17,94 @@
     <script src="js/modernizr-2.6.2.min.js"></script>
 </head>
 <body>
-    <div id="intro-screen">
-        <canvas id="particle_canvas" height="500" width="700">FALLBACK IMAGE HERE</canvas>
+    <section id="intro-screen">
+        <canvas id="particle_canvas" height="500" width="700"></canvas>
         <div class="container">
             <img id="marley-logo" src="images/logo.jpg" class="col-md-3" alt="Marley Coffee Logo">
         </div>
-    </div>
-    <div class="container">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dolor erat, pretium nec sem ac, semper molestie diam. Duis vehicula interdum tellus vel convallis. Donec metus quam, lobortis id auctor sodales, dictum eget orci. Cras non risus lacus. Nam dui sem, elementum fermentum tellus quis, imperdiet adipiscing est. Morbi convallis pharetra magna vel aliquam. Maecenas ac elit et orci luctus gravida. Morbi mi ante, malesuada eu mi posuere, viverra ultrices risus. Integer laoreet facilisis lorem. Vivamus facilisis pharetra ante, a tempus quam ultricies quis. Duis eget venenatis ligula, nec porttitor risus. Integer quis neque molestie neque consectetur tempus. Phasellus fringilla tempor lacus, vel lacinia eros lacinia ut. Suspendisse venenatis egestas lorem, id blandit quam.
+        <span id="down-arrow"></span>
+    </section>
 
-            Morbi at neque sed felis venenatis dignissim. Ut ligula ante, lacinia eu purus ut, tristique placerat nunc. Nam porttitor malesuada velit, nec congue nibh ullamcorper faucibus. Donec neque mauris, interdum at lorem ac, tristique convallis lacus. Ut non tempus sapien. Praesent ultrices, metus at tincidunt rutrum, purus risus cursus urna, ut ultrices odio libero vitae nunc. Aliquam vulputate nisl felis, sit amet blandit massa suscipit sed. Nullam mattis ornare quam ut varius. Pellentesque bibendum consectetur massa in blandit. Fusce sit amet dui risus. Suspendisse aliquet tellus ultrices turpis sodales placerat. Vivamus auctor, lacus non aliquet ullamcorper, tortor ipsum bibendum enim, vel pharetra libero dui eget odio. Sed malesuada gravida egestas. Phasellus commodo cursus posuere. Duis ut dignissim metus.
+    <!-- start main content section -->
+    <div id="wrapper">
+        <!-- large display nav -->
+        <div id="navigation-wrap">
+            <nav id="main-nav-wrap" class="navbar navbar-default navbar-inverse" role="navigation">
+                <div class="container">
+                    <button id="mobile-menu-icon" type="button" class="btn btn-default visible-xs visible-sm">
+                        MENU <span class="glyphicon glyphicon-list"></span>
+                    </button>
+                    <div class="row">
+                        <ul class="nav navbar-nav col-sm-12 col-md-9" id="main-nav">
+                            <li class="active"><a href="#" class="glyphicon glyphicon-home home"></a></li>
+                            <li><a href="#">Coffee</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Link</a></li>
+                                    <li><a href="#">Link</a></li>
+                                    <li><a href="#">Link</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Learn <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Link</a></li>
+                                    <li><a href="#">Link</a></li>
+                                    <li><a href="#">Link</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Where to Buy</a></li>
+                            <li><a href="#">1Love</a></li>
+                            <li><a href="#">Investor Relations</a></li>
+                            <li id="affiliates" ><a data-toggle="modal" href="#affiliate-form">Affiliates</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right col-md-3 visible-md visible-lg" id="social-networks">
+                            <li id="instagram"><a href="http://instagram.com/marleycoffee"></a></li>
+                            <li id="pintrest"><a href="http://www.pinterest.com/themarleycoffee/"></a></li>
+                            <li id="youtube"><a href="http://www.youtube.com/user/MarleyCoffee"></a></li>
+                            <li id="twitter"><a href="https://twitter.com/MarleyCoffee"></a></li>
+                            <li id="facebook"><a href="https://www.facebook.com/MarleyCoffee"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <nav id="sort-nav" class="navbar navbar-default navbar-inverse hidden-xs" role="navigation">
+                <div class="container">
+                    <ul class="filter option-set nav navbar-nav" id="left-sorter" data-filter-group="primary">
+                        <li><a class="selected" id="overview-tab" href="#" data-filter-value=".overview">Overview</a></li>
+                        <li><a href="#" data-filter-value=".coffee">Coffee</a></li>
+                        <li><a href="#" data-filter-value=".company">Company</a></li>
+                        <li><a href="#" data-filter-value=".community">Community</a></li>
+                    </ul>
+                    <ul class="filter option-set nav navbar-nav" data-filter-group="secondary">
+                        <li><a class="selected" href="#" data-filter-value="">All</a></li>
+                        <li><a href="#" data-filter-value=".pix">Pix</a></li>
+                        <li><a href="#" data-filter-value=".videos">Videos</a></li>
+                        <li><a href="#" data-filter-value=".text">Text</a></li>
+                        <li><a href="#" data-filter-value=".social">Social</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
 
-            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi molestie leo ac tellus tincidunt pretium. Duis quis lorem lacinia, malesuada lectus nec, mattis diam. Aliquam erat volutpat. Vestibulum tempor mattis scelerisque. Donec non magna vestibulum, imperdiet nisi id, commodo lectus. Mauris eu elit felis. Cras posuere nibh vel sagittis pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed a hendrerit orci. Donec sagittis, ligula sed commodo adipiscing, odio arcu mollis ante, a adipiscing nisl dolor sed urna.
-
-            Proin ipsum sem, lacinia vel massa quis, pulvinar porta felis. Donec nec ligula dignissim, congue est ut, iaculis justo. Phasellus vestibulum risus adipiscing, aliquam velit posuere, dictum felis. Cras venenatis in nisi quis rutrum. Cras nec adipiscing est, sit amet blandit quam. Nulla pulvinar, tortor non tempor viverra, mi nisi convallis elit, id auctor orci lectus a risus. Integer faucibus sagittis sem ut aliquet. Integer sollicitudin eget neque et facilisis.
-
-            Duis gravida nisi in leo cursus facilisis. Duis varius aliquet egestas. Quisque blandit ac ante fringilla sagittis. Ut urna augue, lobortis vitae mollis et, convallis ullamcorper sem. Aliquam id dapibus justo. Pellentesque eleifend quis metus ut imperdiet. Pellentesque laoreet suscipit tortor. Nulla sit amet metus egestas, auctor odio ut, faucibus dolor.
-
-            Cras sit amet egestas turpis, vitae faucibus neque. Sed eget quam pretium, pulvinar lectus facilisis, vehicula risus. Etiam fermentum nunc sed tellus viverra, pellentesque porta erat adipiscing. Fusce eleifend in dui nec ornare. Praesent a lectus ultrices, vehicula lorem ut, gravida mi. Nam pretium tortor ac magna aliquam dignissim. Integer sit amet arcu eget dolor placerat ornare. Nullam nec dignissim eros, quis convallis felis. Aliquam vehicula sodales mauris. Curabitur sapien lacus, scelerisque eu commodo ac, facilisis commodo ipsum. Integer vitae posuere urna. Etiam euismod augue quis augue venenatis luctus. Ut varius nibh metus. Aenean nec neque at elit molestie venenatis.
-
-            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis adipiscing mauris in sodales venenatis. Donec blandit aliquet tellus mattis pharetra. Suspendisse potenti. Quisque adipiscing, massa at tincidunt euismod, orci dui vehicula ligula, non sollicitudin massa nisi vitae nibh. Praesent semper ullamcorper mi sed rhoncus. Nulla auctor est eget quam vulputate, a condimentum turpis placerat. Cras aliquam sapien vitae erat euismod scelerisque.
-
-            Curabitur vitae lorem rhoncus, rutrum nulla et, imperdiet dolor. Cras interdum turpis sed facilisis luctus. Nulla facilisi. Morbi quis tincidunt dui. Etiam imperdiet, mi vitae egestas elementum, dui ligula interdum massa, blandit tempus lorem mauris ut eros. Duis sollicitudin ut magna non pharetra. Ut cursus tellus augue, ut iaculis dui commodo eget. Ut pulvinar sagittis condimentum. Integer sit amet lacus commodo, iaculis sem eget, ullamcorper arcu. Quisque eleifend tellus a ultrices pharetra. Aenean tristique molestie urna eu commodo. Sed placerat massa in quam facilisis lacinia. Integer quis elit accumsan, feugiat ante ac, volutpat ipsum. Vestibulum viverra justo ac dui tempus, sit amet interdum quam auctor. Ut elementum enim bibendum leo semper, in bibendum est venenatis. Nunc hendrerit sollicitudin euismod.
-
-            Cras pretium quam laoreet cursus viverra. Donec hendrerit luctus nisi, vitae imperdiet lacus volutpat vulputate. Cras sollicitudin tortor lacus, sed cursus nulla euismod in. Morbi vel neque a ligula pharetra cursus. Ut rhoncus ipsum erat, sit amet mattis elit vestibulum at. Sed fermentum ligula sed lorem cursus cursus. Pellentesque ut velit non velit sollicitudin accumsan. Quisque nec arcu consectetur, blandit urna vel, imperdiet risus. Fusce auctor vulputate dui nec pretium. Etiam quis rhoncus purus, vel faucibus erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta bibendum magna sit amet molestie.
-
-            Maecenas quis metus a sapien ultricies pellentesque at eget justo. Ut ante mauris, luctus ac ipsum sed, feugiat feugiat metus. Sed iaculis justo ut metus ornare, sed ullamcorper felis dictum. Phasellus vitae nisl at massa cursus tristique. Praesent bibendum erat risus, eu pellentesque felis vestibulum eu. Sed non magna in tellus gravida egestas. Vestibulum pellentesque sed tortor at hendrerit. Nullam lectus lacus, rhoncus nec fringilla nec, imperdiet rhoncus erat. Vestibulum non mi vitae arcu dapibus convallis. Donec orci metus, imperdiet ac arcu sed, ornare vestibulum libero. Nulla eget molestie eros. Sed scelerisque placerat rutrum. Proin at orci a mauris facilisis tristique. Nullam porttitor dignissim turpis eu sagittis. Suspendisse vitae consequat nulla. Vivamus vestibulum auctor ipsum, vitae rutrum nisi vestibulum condimentum.
-
-            Integer sit amet tellus nunc. Cras facilisis neque quis turpis varius, eu gravida leo accumsan. Duis bibendum consectetur elementum. Donec ac tellus est. Donec nibh eros, placerat placerat erat a, consectetur gravida ante. Vestibulum mauris tortor, bibendum nec lectus sed, mollis suscipit massa. Sed eleifend scelerisque nunc eu lacinia. Nunc vehicula mi vitae mauris tristique, in vestibulum mi mattis. Quisque egestas augue in sapien suscipit, vehicula gravida neque tempus. In tellus erat, molestie id faucibus eu, egestas vitae risus. Aliquam quis ante at arcu suscipit posuere id ut turpis.
-
-            Proin consequat id lorem sit amet aliquet. Quisque faucibus, quam et fermentum adipiscing, lectus nisi pretium felis, in ullamcorper neque lorem vel nisl. Mauris accumsan libero vel ante rhoncus, eget egestas nisl rutrum. Pellentesque bibendum egestas nisi, vitae eleifend enim porta auctor. Suspendisse potenti. Vestibulum ac dignissim eros. Sed nec quam diam. Vestibulum convallis facilisis tortor vitae hendrerit. Integer scelerisque, odio sed pulvinar lobortis, elit dolor varius ante, eget malesuada felis nulla consectetur enim. Maecenas rhoncus dui urna, at sagittis mi sodales quis. Nam eu quam lobortis, suscipit nisi ut, porta nunc. Duis turpis erat, dignissim nec viverra sed, cursus dictum elit. Aenean sodales orci ut justo scelerisque, at egestas lectus elementum. Curabitur pretium nibh eu interdum ullamcorper. Vivamus vitae lorem a nisi vestibulum condimentum vel quis eros.</p>
-    </div>
+        <!-- isotopes -->
+        <div class="container">
+            <section id="isotopes-container">
+                <div class="item tile-image overview logo col-xs-12 col-sm-3" rel="1">
+                    <article>
+                        <img class="col-xs-12 img-responsive" src="images/logo.jpg">
+                    </article>
+                </div>
+                <div class="item tile-image overview coffee col-xs-12 col-sm-3" rel="2">
+                    <article>
+                        <img class="col-xs-12 img-responsive" src="images/greetings.png">
+                    </article>
+                </div>
+            </section>
+        </div>
+    </div><!-- close wrapper -->
 
 
 
@@ -59,6 +116,7 @@
 <script src="js/jquery-isotope-min.js"></script>
 <script src="js/slidejs.min.js"></script>
 <script src="js/moment.min.js"></script>
+<script src="js/custom-isotopes.js"></script>
 <script src="js/custom.js"></script>
 </body>
 </html>
