@@ -2,18 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b48b505f-92a7-438b-8dbc-8c474550ca74" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/custom-isotopes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/navigation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/navigation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/variables_mixins.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/variables_mixins.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/down-button.png" afterPath="$PROJECT_DIR$/images/down-button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/coffee.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/coffee.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/footer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/footer.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/investor-relations/governance.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/header.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/investor-relations/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/inner-template.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/ir.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.easing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/investor-relations/sec-filings.html" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\marley.v2\css\bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\marley.v2\images\clicktoreturn.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\marley.v2\images\coffee-bags.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\marley.v2\images\greetings.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\marley.v2\images\long-horizontal.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\marley.v2\images\puffBlack.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\marley.v2\images\smoke-clear.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\marley.v2\images\video-poster.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\marley.v2\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\marley.v2\js\canvas.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\marley.v2\js\jquery.mousewheel.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\marley.v2\js\particles.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/logo.jpg" afterPath="$PROJECT_DIR$/images/logo.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/all.css" afterPath="$PROJECT_DIR$/css/all.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/all.scss" afterPath="$PROJECT_DIR$/css/all.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/custom-isotopes.js" afterPath="$PROJECT_DIR$/js/custom-isotopes.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/custom.js" afterPath="$PROJECT_DIR$/js/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/marley.v2.iml" afterPath="$PROJECT_DIR$/.idea/marley.v2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/navigation.scss" afterPath="$PROJECT_DIR$/css/navigation.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/variables_mixins.scss" afterPath="$PROJECT_DIR$/css/variables_mixins.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="marley.v2.iws" />
@@ -37,37 +56,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="45" selection-start="6430" selection-end="6430" vertical-scroll-proportion="-73.23077" vertical-offset="102" max-vertical-offset="2159">
+            <state line="7" column="13" selection-start="291" selection-end="291" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="2567">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/custom.js">
+      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="55" selection-start="2126" selection-end="2126" vertical-scroll-proportion="0.0" vertical-offset="713" max-vertical-offset="1292">
+            <state line="51" column="13" selection-start="2703" selection-end="2703" vertical-scroll-proportion="-33.346153" vertical-offset="0" max-vertical-offset="1309">
+              <folding>
+                <marker date="1386080523920" expanded="true" signature="50:2702" placeholder="..." />
+                <marker date="1386080523920" expanded="true" signature="82:2688" placeholder="..." />
+                <marker date="1386080523920" expanded="true" signature="112:2504" placeholder="..." />
+                <marker date="1386080523920" expanded="true" signature="173:2315" placeholder="..." />
+                <marker date="1386080523920" expanded="true" signature="215:2292" placeholder="..." />
+                <marker date="1386080523920" expanded="true" signature="261:725" placeholder="..." />
+                <marker date="1386080523920" expanded="true" signature="771:1234" placeholder="..." />
+                <marker date="1386080523920" expanded="true" signature="1280:1743" placeholder="..." />
+                <marker date="1386080523920" expanded="true" signature="1789:2265" placeholder="..." />
+                <marker date="1386080523920" expanded="true" signature="2382:2485" placeholder="..." />
+                <marker date="1386080523920" expanded="true" signature="2552:2673" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="77" column="29" selection-start="4520" selection-end="4520" vertical-scroll-proportion="-32.692307" vertical-offset="459" max-vertical-offset="2244">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom-isotopes.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/custom-isotopes.js">
+      <file leaf-file-name="coffee.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coffee.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="3" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+            <state line="257" column="29" selection-start="16848" selection-end="16848" vertical-scroll-proportion="-14.538462" vertical-offset="3991" max-vertical-offset="4505">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="particles.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/particles.js">
+      <file leaf-file-name="ir.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/ir.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="54" selection-start="2840" selection-end="2840" vertical-scroll-proportion="0.0" vertical-offset="1955" max-vertical-offset="4794">
+            <state line="8" column="24" selection-start="128" selection-end="128" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="1411">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inner-template.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inner-template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="8" selection-start="99" selection-end="136" vertical-scroll-proportion="-1.9615384" vertical-offset="17" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
@@ -76,16 +125,16 @@
       <file leaf-file-name="all.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/all.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="0" selection-start="990" selection-end="990" vertical-scroll-proportion="0.12990937" vertical-offset="705" max-vertical-offset="1819">
+            <state line="270" column="16" selection-start="5229" selection-end="5229" vertical-scroll-proportion="0.50980395" vertical-offset="4330" max-vertical-offset="5559">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navigation.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/navigation.scss">
+      <file leaf-file-name="custom.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="16" selection-start="589" selection-end="589" vertical-scroll-proportion="4.5" vertical-offset="593" max-vertical-offset="2533">
+            <state line="30" column="50" selection-start="1175" selection-end="1175" vertical-scroll-proportion="-17.68" vertical-offset="68" max-vertical-offset="5848">
               <folding />
             </state>
           </provider>
@@ -109,22 +158,31 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/js/canvas.js" />
-        <option value="$PROJECT_DIR$/js/particles.js" />
-        <option value="$PROJECT_DIR$/css/variables_mixins.scss" />
-        <option value="$PROJECT_DIR$/js/custom-isotopes.js" />
+        <option value="$PROJECT_DIR$/investor-relations/sec-filings.html" />
+        <option value="$PROJECT_DIR$/investor-relations/governance.html" />
+        <option value="$PROJECT_DIR$/investor-relations/profile.html" />
+        <option value="$PROJECT_DIR$/investor-relations/index.html" />
+        <option value="$PROJECT_DIR$/../marley/js/custom.js" />
+        <option value="$PROJECT_DIR$/js/jquery.easing.js" />
+        <option value="$PROJECT_DIR$/css/footer.scss" />
+        <option value="$PROJECT_DIR$/js/jquery.fancybox.js" />
+        <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/navigation.scss" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/css/ir.scss" />
+        <option value="$PROJECT_DIR$/inner-template.php" />
         <option value="$PROJECT_DIR$/js/custom.js" />
+        <option value="$PROJECT_DIR$/coffee.php" />
         <option value="$PROJECT_DIR$/css/all.scss" />
       </list>
     </option>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="132" />
-    <option name="y" value="87" />
-    <option name="width" value="1331" />
-    <option name="height" value="728" />
+    <option name="x" value="72" />
+    <option name="y" value="105" />
+    <option name="width" value="1482" />
+    <option name="height" value="696" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -181,7 +239,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="investor-relations" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -192,27 +250,28 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FaithSource/wordpress/wp-content/themes/faithSource" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="PublishConfig">
     <servers>
-      <server id="1e36f4bb-aa57-4732-adc6-28f8eed71d78">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
+      <server id="2159acf2-73d9-4071-82ff-12992f6ad17d">
+        <serverdata />
       </server>
-      <server id="eb5310a9-377b-4563-8bc9-8e389c07597e">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
+      <server id="47b54f88-432f-45f4-bb5b-5275a762112c">
+        <serverdata />
+      </server>
+      <server id="5a900acf-21ab-4043-9085-3f52a2223d87">
+        <serverdata />
       </server>
     </servers>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\marley.v2\investor-relations" />
+    </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/marley.v2/index.html">
@@ -220,33 +279,17 @@
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="name" value="Dart" />
-      <option name="saveOutputToFile" value="false" />
-      <option name="showConsoleOnStdErr" value="false" />
-      <option name="showConsoleOnStdOut" value="false" />
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
-      <browser start="false" url="" with-js-debugger="false" />
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="1">
@@ -282,27 +325,34 @@
       <created>1383904972181</created>
       <updated>1383904972181</updated>
     </task>
+    <task id="LOCAL-00001" summary="Intro screen, navigation position, logo drop">
+      <created>1383995603913</created>
+      <updated>1383995603913</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="132" y="87" width="1331" height="728" extended-state="0" />
+    <frame x="72" y="105" width="1482" height="696" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924694" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2466509" sideWeight="0.67075306" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2708049" sideWeight="0.6761566" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39929947" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924694" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32924694" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32384342" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924694" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -315,117 +365,129 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Intro screen, navigation position, logo drop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Intro screen, navigation position, logo drop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/investor-relations/sec-filings.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="11" selection-start="910" selection-end="1193" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
+        <state line="61" column="129" selection-start="2911" selection-end="2911" vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="1700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../marley/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="222" column="0" selection-start="6476" selection-end="7400" vertical-scroll-proportion="0.0" vertical-offset="3699" max-vertical-offset="5168" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.easing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="3524" selection-start="3542" selection-end="3542" vertical-scroll-proportion="0.03250478" vertical-offset="0" max-vertical-offset="523" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../FaithSource/wordpress/wp-content/themes/faithSource/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="7" selection-start="2314" selection-end="2980" vertical-scroll-proportion="0.8451243" vertical-offset="918" max-vertical-offset="2975" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.fancybox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1820" column="13" selection-start="43720" selection-end="43973" vertical-scroll-proportion="0.40461215" vertical-offset="30747" max-vertical-offset="34425">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/investor-relations/governance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="26" selection-start="2671" selection-end="2671" vertical-scroll-proportion="0.0" vertical-offset="1054" max-vertical-offset="4352">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="16" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="13" selection-start="2703" selection-end="2703" vertical-scroll-proportion="-33.346153" vertical-offset="0" max-vertical-offset="1309">
+          <folding>
+            <marker date="1386080523920" expanded="true" signature="50:2702" placeholder="..." />
+            <marker date="1386080523920" expanded="true" signature="82:2688" placeholder="..." />
+            <marker date="1386080523920" expanded="true" signature="112:2504" placeholder="..." />
+            <marker date="1386080523920" expanded="true" signature="173:2315" placeholder="..." />
+            <marker date="1386080523920" expanded="true" signature="215:2292" placeholder="..." />
+            <marker date="1386080523920" expanded="true" signature="261:725" placeholder="..." />
+            <marker date="1386080523920" expanded="true" signature="771:1234" placeholder="..." />
+            <marker date="1386080523920" expanded="true" signature="1280:1743" placeholder="..." />
+            <marker date="1386080523920" expanded="true" signature="1789:2265" placeholder="..." />
+            <marker date="1386080523920" expanded="true" signature="2382:2485" placeholder="..." />
+            <marker date="1386080523920" expanded="true" signature="2552:2673" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="291" selection-end="291" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="2567">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/ir.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="24" selection-start="128" selection-end="128" vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="1411">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/investor-relations/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="0" selection-start="4135" selection-end="4135" vertical-scroll-proportion="0.9577465" vertical-offset="714" max-vertical-offset="1564">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="29" selection-start="4520" selection-end="4520" vertical-scroll-proportion="-32.692307" vertical-offset="459" max-vertical-offset="2244">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="50" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="544">
+        <state line="30" column="50" selection-start="1175" selection-end="1175" vertical-scroll-proportion="-17.68" vertical-offset="68" max-vertical-offset="5848">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/particles.js">
+    <entry file="file://$PROJECT_DIR$/coffee.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="87" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0" vertical-offset="58" max-vertical-offset="4913">
+        <state line="257" column="29" selection-start="16848" selection-end="16848" vertical-scroll-proportion="-14.538462" vertical-offset="3991" max-vertical-offset="4505">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/all.scss">
+    <entry file="file://$PROJECT_DIR$/inner-template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="41" selection-start="1399" selection-end="1399" vertical-scroll-proportion="0.0" vertical-offset="485" max-vertical-offset="1768">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="11" selection-start="910" selection-end="1193" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="50" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/particles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="87" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0" vertical-offset="58" max-vertical-offset="4913">
+        <state line="4" column="8" selection-start="99" selection-end="136" vertical-scroll-proportion="-1.9615384" vertical-offset="17" max-vertical-offset="680">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/all.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="41" selection-start="1399" selection-end="1399" vertical-scroll-proportion="0.0" vertical-offset="485" max-vertical-offset="1768">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/canvas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/variables_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="30" selection-start="1250" selection-end="1250" vertical-scroll-proportion="1.3757225" vertical-offset="0" max-vertical-offset="816">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="45" selection-start="6430" selection-end="6430" vertical-scroll-proportion="-73.23077" vertical-offset="102" max-vertical-offset="2159">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/particles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="54" selection-start="2840" selection-end="2840" vertical-scroll-proportion="0.0" vertical-offset="1955" max-vertical-offset="4913">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/navigation.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="16" selection-start="589" selection-end="589" vertical-scroll-proportion="4.5" vertical-offset="593" max-vertical-offset="2533">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/custom-isotopes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="3" selection-start="1229" selection-end="1229" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="55" selection-start="2126" selection-end="2126" vertical-scroll-proportion="0.0" vertical-offset="713" max-vertical-offset="1292">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/all.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="990" selection-end="990" vertical-scroll-proportion="0.12990937" vertical-offset="705" max-vertical-offset="1819">
+        <state line="270" column="16" selection-start="5229" selection-end="5229" vertical-scroll-proportion="0.50980395" vertical-offset="4330" max-vertical-offset="5559">
           <folding />
         </state>
       </provider>

@@ -1,0 +1,78 @@
+.affix {
+  position: fixed;
+}
+.affix-bottom {
+  position: absolute;
+}
+#ir-wrapper {
+  background: #fff;
+  padding: 100px 0 50px;
+}
+.marley-redirect {
+  padding-top: 18px;
+    a {
+      color: $yellow;
+      font-size: 18px;
+      line-height:.9;
+      @include transition(all,0.4s);
+        i {
+          font-size: 26px;
+          margin: 3px 5px 0 0;
+          float: left;
+      }
+        &:hover {
+          text-decoration: none;
+          color: #fff;
+        }
+    }
+}
+.ir-title {
+  color: #fff;
+    h1 {
+      margin: 17px 0 14px 5px;
+    }
+}
+#ir-nav {
+    ul {
+      padding-left: 0;
+      li {
+        list-style: none;
+        border-bottom: 1px solid $yellow;
+        width: 100%;
+        text-transform: uppercase;
+        font-size: 16px;
+          a {
+            color: $yellow;
+            width: 100%;
+            display: block;
+            padding: 2px 0 2px 5px;
+              &:hover {
+                background: $brown;
+                text-decoration: none;
+              }
+          }
+      }
+      .active {
+        background: $brown;
+      }
+    }
+}
+.ir-sidebar-block {
+  margin: 20px 0 40px;
+    .stockTick {
+      background: rgba(234, 234, 234, 0.75);
+      padding: 0 10px 10px;
+      border: 1px solid $yellow;
+    }
+}
+#ir-main {
+  position: relative;
+    #ajax-loader {
+      width: 128px;
+      height: 128px;
+      margin: -64px 0 0 -64px;
+      position: absolute;
+      display: block;
+      background: url(../images/ajax-loader.gif)no-repeat;
+    }
+}

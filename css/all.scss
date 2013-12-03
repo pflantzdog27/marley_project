@@ -5,7 +5,9 @@
 @import "media_queries";
 @import "isotope-default";
 @import "navigation";
-
+@import "coffee";
+@import "footer";
+@import "ir";
 
 
 /* UTILITIES and DOCUMENT ESSENTIALS */
@@ -14,35 +16,66 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   background: url(../images/body-bg.png)0 0;
-      canvas {
-          background: rgba(0,0,0,.95);
-      }
+  font-family: $themefont;
 }
 #intro-screen {
-  background: url(../images/intro_screen_c.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  display: none;
+    #blanket {
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.95);
+      position: absolute;
+      z-index: 9;
+    }
     #down-arrow {
       width: 100%;
       height: 100%;
       background: url(../images/down-button.png)no-repeat center center;
-      display: block;
+      display: none;
       position: absolute;
       cursor: pointer;
+    }
+    .full-screen-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: none;
+    }
+    .bgwidth { width: 100%; }
+    .bgheight { height: 100%; }
+    #viewport {
+      position: relative;
+      width: 800px;
+      height: 100%;
+      overflow: hidden;
+      z-index: 99;
+        .smoke {
+            position: absolute;
+            width: 250px;
+            height: 450px;
+            background:url('../images/smoke-texture.png') no-repeat;
+            bottom: 0;
+            margin-left:100px
+        }
     }
 }
 #marley-logo {
   position: fixed;
-  top: 70%;
+  top: 125px;
   @include box-shadow(0px 6px 14px, rgba(50, 50, 50, 0.75));
-  opacity: 0;
+  opacity: 0.4;
   padding: 0;
   margin-left: 7px;
   z-index: 2;
 }
-
+#wrapper {
+  position: relative;
+  overflow: hidden;
+  visibility: visible;
+}
+#inner-wrapper {
+  padding: 110px 0;
+}
 // ISOTOPES
 .item {
   margin: 15px 0;
@@ -51,7 +84,7 @@ body {
     }
 }
 .logo {
-  visibility: hidden;
+  visibility: visible;
 }
 /* IMAGE ISOTOPES */
 .item > article {
@@ -64,9 +97,182 @@ body {
       padding: 0;
     }
 }
+/* SLIDESHOW ISOTOPES */
+.slidesjs-pagination {
+  position: absolute;
+  bottom: 2px;
+  left: 15px;
+  z-index: 9999;
+  padding-left: 5px;
+    li {
+      float: left;
+      display: block;
+      margin-right: 3px;
+      background: #fff;
+      text-indent: -9999px;
+      width: 15px;
+      height: 15px;
+      border: 1px solid $dark-gray;
+      @include transition(all,0.5s);
+      overflow: hidden;
+        &:hover {
+           background: $dark-gray;
+        }
+        a {
+          display: block;
+          padding-bottom: 0;
+        }
+        .active {
+          background: $dark-gray;
+        }
+    }
+}
 
+/* POST IT NOTES */
+.post-it-wrap {
+  background: url(../images/tweet-bg.png) 0 0;
+  padding: 10px;
+  color: $brown;
+  font: $themefont;
+  padding-bottom: 60px;
+  position: relative;
+    .signature {
+      background: url(../images/signature.png) no-repeat 0 0;
+      width: 110px;
+      height: 52px;
+      display: block;
+      position: absolute;
+      bottom: 5px;
+      right: 20px;
+    }
+}
+/* MODAL MESSAGE */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+    iframe,object, embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+}
 
+.standard-text-block-wrap {
+  padding: 10px;
+}
 
+// ticker
+.stockWrapper {
+  font-weight: bold;
+  color: #333;
+  font-size: 20px;
+    span {
+      display:block;
+      font-size: 1.2em;
+    }
+    .stockPrice {
+      float: left;
+      margin-right: 10px;
+    }
+    .stockChangePercent {
+      float: left;
+      font-size: .9em;
+      line-height: 2;
+      font-weight: 300;
+    }
+    .lastTime {
+      font-size: .5em;
+      color: gray;
+      clear: both;
+    }
+    .positive { color: green;}
+    .negative { color: red;}
+}
+
+// Sharing
+.share-button {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  background: url(../images/share-sprite.png)no-repeat 0 -283px;
+  font-size: 25px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  @include transition(all,.5s);
+}
+
+.share-options {
+  display: none;
+  background: rgba(0,0,0,1);
+  width: 100%;
+  height: 40px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  @include transition(all,.5s);
+    h4 {
+      color: #fff;
+      margin-left: 20px;
+    }
+    li {
+      float: left;
+      margin: 3px 10px 0 0;
+      list-style: none;
+        a {
+          display: block;
+          width: 40px;
+          height: 40px;
+          background: url(../images/share-sprite.png)no-repeat;
+        }
+    }
+  #close-share { float: right;}
+    .close {
+      padding: 5px;
+      font-size: 30px;
+      color: #fff;
+    }
+    #fb-share a {  background-position: 0 -56px; }
+    #mail-share a {  background-position: 0 0; }
+    #twitter-share a {  background-position: 0 -112px; }
+    #pin-share a {  background-position: 0 -169px; }
+    #close-share a { background-position: 0 -225px; }
+}
+// Read More
+.rd-more-notice {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.7);
+  padding: 10px 0;
+  display: none;
+}
+
+// Inner template
+.page-title {
+  margin-bottom: 40px;
+    h2 {
+      color: $yellow;
+    }
+}
+#page-content {
+  padding-bottom: 50px;
+}
+#inner-template {
+  background: #fff;
+  margin-top: 100px;
+    .sidebar-graphic {
+      padding-top: 23px;
+    }
+}
 
 
 
@@ -80,7 +286,15 @@ body {
 
 
 @media(min-width:768px){ /* small */
-
+  #intro-screen {
+    display: block;
+  }
+  #wrapper {
+    visibility: hidden;
+  }
+  .logo {
+    visibility: hidden;
+  }
 }
 @media(min-width:992px){ /* medium */
   #main-nav {
@@ -94,9 +308,15 @@ body {
     position: relative;
     right: 0;
   }
+  .affix, .affix-top, .affix-bottom {
+    width: 235px;
+  }
 }
 @media(min-width:1200px){ /* large */
   #main-nav li {
     font-size: 1em;
+  }
+  .affix, .affix-top, .affix-bottom {
+    width: 285px;
   }
 }

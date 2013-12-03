@@ -10,7 +10,7 @@ $(document).ready(function (){
             filter: '.overview',
             getSortData : {
                 position : function ( $elem ) {
-                    return $elem.attr('rel');
+                    return $elem.attr('data-order');
                 }
             },
             sortBy : 'position'
